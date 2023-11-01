@@ -86,7 +86,7 @@ function App() {
           <h2>Current speech text</h2>
           {isListening ? <span>🎙️Recording....</span> : <span>🛑🎙️</span>}
           <button onClick={handleSaveNote} disabled={!note}>
-            Save text
+            Save Your text
           </button>
           <button onClick={() => {setIsListening(prevState => !prevState);Toggle()}}>
             {state ? "Stop " : "Start"}
